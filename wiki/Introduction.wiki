@@ -1,0 +1,8 @@
+#Basic guide
+
+= Introduction =
+
+
+I will work at this page later, but for quick learning what it might be about, look at screenshot below:
+
+http://aumask.googlecode.com/files/AUMASK-dialog-1.png
