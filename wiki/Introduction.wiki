@@ -18,3 +18,7 @@ In dialog window you can manipulate brightness of image - note that it manipulat
 Here is an example: notice the sky - it is darker, yet local sharpness (f.e. roofs vs. sky) was preserved or rather increased. Image was also sharpened, but this is not that noticeable.
 
 http://aumask.googlecode.com/files/street-example.jpg
+
+= Selective mask =
+
+As by now (v 0.6.2) I'm not satisfied with how it works, so take it as an feature in development
