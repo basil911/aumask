@@ -3,6 +3,14 @@
 = Introduction =
 
 
-I will work at this page later, but for quick learning what it might be about, look at screenshot below:
+First, here is an image of dialog window (v 0.5) - to get some idea what it does.
 
 http://aumask.googlecode.com/files/AUMASK-dialog-1.png
+
+= Sharpening = 
+
+I have nothing to say about it - you should know how it works. And no example images neither.
+
+= Not sharpening use =
+
+In dialog window you can manipulate brightness of image - note it manipulates it via blurred mask, not directly pixels. So you can use this plugin also to reduce overall contrast of image while preserving (or enlarging) local contrast.
