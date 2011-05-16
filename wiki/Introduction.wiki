@@ -25,4 +25,4 @@ As by now (v 0.6.2) I'm not satisfied with how it works, so take it as an featur
 
 = Please note =
 
-that this plugin and this wiki is still in development,,,
+that this plugin and this wiki is still in development...
