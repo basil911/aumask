@@ -8,7 +8,9 @@ http://aumask.googlecode.com/files/AUMASK-dialog-1.png
 
 = Sharpening with this plugin = 
 
-This is basic use of this plugin, yet I have nothing special to say about it - you should know how unsharp mask works. So far I have no example images.
+This is basic use of this plugin, yet I have nothing special to say about it - you should know how unsharp mask works. Still I enclosed one image - but nothing special about it.
+
+http://aumask.googlecode.com/files/forest-example.JPG
 
 = Not sharpening use =
 
