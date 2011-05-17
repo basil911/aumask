@@ -1,28 +1,31 @@
-#Basic guide
+= Introduction of Advanced Unsharp Mask =
 
-= Introduction =
+I presume you understand what unsharp mask is and how it works.
 
-
-First, here is an image of dialog window (v 0.5) - to get some idea what it does.
+Let us start with an image of dialog window (v 0.5) - to get some idea what you can control with this plugin
 
 http://aumask.googlecode.com/files/AUMASK-dialog-1.png
 
 = Sharpening with this plugin = 
 
-I have nothing to say about it - you should know how unsharp mask works. So far I have no example images.
+This is basic use of this plugin, yet I have nothing special to say about it - you should know how unsharp mask works. So far I have no example images.
 
 = Not sharpening use =
 
-In dialog window you can manipulate brightness of image - note that it manipulates overall brightness via blurred mask, not directly pixels. So you can use this plugin also to reduce overall contrast of image while preserving (or enlarging) local contrast.
+Secondary, but very important feature is manipulation of overall contrast and/or brightness of image. Note that it manipulates overall brightness via blurred mask, not directly pixels. So you can use this plugin also to reduce overall contrast of image while preserving (or increasing) local contrast. 
 
 Here is an example: notice the sky - it is darker, yet local sharpness (f.e. roofs vs. sky) was preserved or rather increased. Image was also sharpened, but this is not that noticeable.
 
 http://aumask.googlecode.com/files/street-example.jpg
 
+Below is another example, where I reduced global contrast, yet increased local contrast - sharpness of image. You can notice "hallo" efect on this image, thought not strong one - this is a side-effect of using standard blurred mask for sharpening. 
+
+http://aumask.googlecode.com/files/castle-example.JPG
+
 = Selective mask =
 
-As by now (v 0.6.2) I'm not satisfied with how it works, so take it as an feature in development
+To avoid hallo efects (as mentioned above) I'm developing also selective mask to be used as unsharp mask, but as by now (v 0.6.2) I'm not satisfied with how it works, especially with transition between areas with significantly different brightness, so take it as an feature in development.
 
 = Please note =
 
-that this plugin and this wiki is still in development...
+that this plugin and this wiki is still in development, any comments are welcomed...
