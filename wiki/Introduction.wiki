@@ -2,9 +2,9 @@
 
 I presume you understand what unsharp mask is and how it works.
 
-First, here is an image of dialog window (v 0.5) - to get some idea what you can control and do with this plugin
+First, here is an image of dialog window (v 0.6.2) - to get some idea what you can control and do with this plugin
 
-http://aumask.googlecode.com/files/AUMASK-dialog-1.png
+http://aumask.googlecode.com/files/aumask-window-2.png
 
 = Sharpening with this plugin = 
 
