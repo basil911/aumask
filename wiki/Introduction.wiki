@@ -2,17 +2,17 @@
 
 I presume you understand what unsharp mask is and how it works.
 
-Let us start with an image of dialog window (v 0.5) - to get some idea what you can control and do with this plugin
+First, here is an image of dialog window (v 0.5) - to get some idea what you can control and do with this plugin
 
 http://aumask.googlecode.com/files/AUMASK-dialog-1.png
 
 = Sharpening with this plugin = 
 
-This is primary use of this plugin, yet I have nothing special to say about this functionality. Still I enclosed one image as example.
+This is primary use of this plugin, yet I have nothing special to say about this functionality. Here is an example image:
 
 http://aumask.googlecode.com/files/forest-example.JPG
 
-= No sharpening use =
+= Non-sharpening use =
 
 Secondary, but very important feature is manipulation of overall contrast and/or brightness of an image. Note that it manipulates overall brightness via blurred mask, not directly pixels. So you can use this plugin also to reduce overall contrast of image while preserving (or increasing) local contrast. 
 
@@ -26,8 +26,8 @@ http://aumask.googlecode.com/files/castle-example.JPG
 
 = Selective mask =
 
-To avoid hallo efects (as mentioned above) I'm developing also selective mask to be used as unsharp mask, but as by now (v 0.6.2) I'm not satisfied with how it works, especially with transition between areas with significantly different brightness, so take it as an feature in development.
+To avoid hallo efects (as mentioned above) I'm developing also selective mask to be used as the unsharp mask, but as by now (v 0.6.2) I'm not satisfied with how it works, especially with transition between areas with significantly different brightness, so take it as an feature in development.
 
 = Please note =
 
-that this plugin and this wiki is still in development, any comments are welcomed...
+that plugin is still unfinished, any ideas and feedback is welcomed.
