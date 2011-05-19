@@ -26,7 +26,7 @@ http://aumask.googlecode.com/files/castle-example.JPG
 
 = Selective mask =
 
-To avoid hallo efects (as mentioned above) I'm developing also selective mask to be used as the unsharp mask. I enhanced it in 0.6.4 version, so it might be quite usable. Here is an example, that shows original, sharpening with normal (in the middle) and selective mask (right side). Notice halo efects in the middle section - around trees.
+To avoid hallo efects (as mentioned above) I'm developing also selective mask to be used as the unsharp mask. I enhanced it in 0.6.4 version, so it might be quite usable. Here is an example, that shows original, sharpening with normal (in the middle) and selective mask (right side). Notice halo efects in the middle section - around trees. Of course, this effect can be mitigated by bigger radius of blurring.
 
 http://aumask.googlecode.com/files/halo-efect-example.jpg
 
