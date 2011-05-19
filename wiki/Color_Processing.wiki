@@ -40,9 +40,9 @@ This page is to be continuously worked on and added.
 
    Rint=ROUND( (Rfloat^2.2) *255 )
 
-   Gint=ROUND( (Gfloat^2.2) *255 )
+   Gint=ROUND( (Gfloat ^ 2.2) *255 )
 
-   Bint=ROUND( (Bfloat^2.2) *255 )
+   Bint=ROUND( (Bfloat ^ 2.2) *255 )
 
 
 values below 0 and above 255 are clipped.
