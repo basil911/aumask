@@ -14,27 +14,34 @@ This page is to be continuously worked on and added.
 1. RGB values are gammed and converted to float in range 0-1
 
 Rfloat=(Rint/255)**(1/2.2)
+
 Gfloat=(Gint/255)**(1/2.2) 
+
 Bfloat=(Bint/255)**(1/2.2) 
  
-2.
-brightness is calculated 
+2. brightness is calculated 
+
 avg=(R+G+B)/3
+
 (this is to be changed for wighted average in next version)
 
-3.
-new brightness (avg_new) is calculated (description how is not subject of this page)
+3. new brightness (avg_new) is calculated (description how is not subject of this page)
 
 
-4.
-New Rfloat, Gfloat,Bfloat are caluclated:
+4. New Rfloat, Gfloat,Bfloat are caluclated:
+
 Rfloat= avg_new+Rfloat-avg
+
 Gfloat= avg_new+Gfloat-avg
+
 Bfloat= avg_new+Bfloat-avg
 
 5. RGB (floats) are converted back to integers in range 0-255
-Rint=ROUND( (Rfloat**2.2)*255 )
-Gint=ROUND( (Gfloat**2.2)*255 )
-Bint=ROUND( (Bfloat**2.2)*255 )
-values below 0 and above 255 are clipped.
 
+Rint=ROUND( (Rfloat**2.2)*255 )
+
+Gint=ROUND( (Gfloat**2.2)*255 )
+
+Bint=ROUND( (Bfloat**2.2)*255 )
+
+values below 0 and above 255 are clipped.
