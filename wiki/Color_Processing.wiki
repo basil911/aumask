@@ -15,9 +15,9 @@ This page is to be continuously worked on and added.
 
    Rfloat=(Rint/255)^(1/2.2)
 
-   Gfloat=(Gint/255)**(1/2.2) 
+   Gfloat=(Gint/255)^(1/2.2) 
 
-   Bfloat=(Bint/255)**(1/2.2) 
+   Bfloat=(Bint/255)^(1/2.2) 
  
 2. brightness is calculated 
 
@@ -38,11 +38,11 @@ This page is to be continuously worked on and added.
 
 5. RGB (floats) are converted back to integers in range 0-255
 
-   Rint=ROUND( (Rfloat**2.2)*255 )
+   Rint=ROUND( (Rfloat^2.2)*255 )
 
-   Gint=ROUND( (Gfloat**2.2)*255 )
+   Gint=ROUND( (Gfloat^2.2)*255 )
 
-   Bint=ROUND( (Bfloat**2.2)*255 )
+   Bint=ROUND( (Bfloat^2.2)*255 )
 
 
 values below 0 and above 255 are clipped.
