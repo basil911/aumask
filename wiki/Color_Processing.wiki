@@ -13,7 +13,7 @@ This page is to be continuously worked on and added.
 
 1. RGB values are gammed and converted to float in range 0-1
 
-   Rfloat=(Rint/255)**(1/2.2)
+   Rfloat=(Rint/255)^(1/2.2)
 
    Gfloat=(Gint/255)**(1/2.2) 
 
