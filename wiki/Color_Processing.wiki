@@ -44,4 +44,5 @@ This page is to be continuously worked on and added.
 
    Bint=ROUND( (Bfloat**2.2)*255 )
 
+
 values below 0 and above 255 are clipped.
