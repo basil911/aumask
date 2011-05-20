@@ -13,9 +13,12 @@ This page is to be continuously worked on and added.
 
 following variables are used in explanation
 {{{
-gint Rint,Gint,Bint    # RGB values 0 - 255 as stored in common RGB images, these are input and output values for the plugin
-gfloat Rfloat,Gfloat,Bfloat  # RGB values converted to range 0-1, during processing can get out of this range (no problem mathematically)
-gfloat avg,new_avg    #brightness (or call it whatever you what) of individual pixel, initially in the range 0-1, but after processing can get out of this range
+gint Rint,Gint,Bint          # RGB values 0 - 255 as stored in common RGB images, these are input and output 
+                             #values for the plugin
+gfloat Rfloat,Gfloat,Bfloat  # RGB values converted to range 0-1, during processing can get out 
+                             # of this range (no problem mathematically)
+gfloat avg,new_avg    #brightness (or call it whatever you what) of individual pixel, initially in the
+                             # range 0-1, but after processing can get out of this range, avg is orignal, avg_new is final brightness
 }}}
 
 1. RGB values are gammed and converted to float in range 0-1
