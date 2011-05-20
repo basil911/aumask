@@ -32,7 +32,8 @@ gfloat avg,new_avg           #brightness (or call it whatever you what) of indiv
 
 2. brightness is calculated 
 {{{
-   avg=(R+G+B)/3
+   avg=(R+G+B)/3                    #0.6.4 and before
+   avg=0.299*R + 0.587*G + 0.114*B  #0.6.5 and on
 }}}
 (this is to be changed for wighted average in next version)
 
