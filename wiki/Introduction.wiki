@@ -2,9 +2,9 @@
 
 I presume you understand what unsharp mask is and how it works.
 
-First, here is an image of dialog window (v 0.6.2) - to get some idea what you can control and do with this plugin
+First, here is an image of dialog window (v 0.6.6) - to get some idea what you can control and do with this plugin
 
-http://aumask.googlecode.com/files/aumask-window-2.png
+http://aumask.googlecode.com/files/aumask-window-0.6.6.png
 
 = Sharpening with this plugin = 
 
@@ -26,9 +26,13 @@ http://aumask.googlecode.com/files/castle-example.JPG
 
 = Selective mask =
 
-To avoid hallo efects (as mentioned above) I'm developing also selective mask to be used as the unsharp mask. I enhanced it in 0.6.4 version, so it might be quite usable. Here is an example, that shows original, sharpening with normal (in the middle) and selective mask (right side). Notice halo efects in the middle section - around trees. Of course, this effect can be mitigated by bigger radius of blurring.
+To avoid hallo efects (as mentioned above) I'm developing also selective mask to be used as the unsharp mask. I enhanced it in 0.6.4 version, so it might be quite usable. Here is an example, that shows original, sharpening with normal (in the middle) and selective mask (right side). Notice halo efects in the middle section - around trees. Of course, this effect can be mitigated by bigger or contrary -smaller radius of blurring.
 
 http://aumask.googlecode.com/files/halo-efect-example.jpg
+
+= Alternate colorspaces =
+
+From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
 
 = Please note =
 
