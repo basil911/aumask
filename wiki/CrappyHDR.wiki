@@ -14,9 +14,9 @@ http://aumask.googlecode.com/files/Crappy_window.png
 
  ==Procedure 1 - Export mask differences==
 
-In above image it is marked with green pen. The number close to button is multiplicator of differences, the higher the more contrast is in resulting image (new layer). Please look at combined image below, image marked as "2" is result of this procedure.
+In above image it is marked with green pen. The number close to button is multiplicator of differences, the higher the more contrast is in resulting image (new layer). Please look at combined image below, image marked as "2" is result of this procedure. Of course, it is B&W, so adding color is up to you.
 
-==Procedure 2 - Pushing light and dark point close together==
+ ==Procedure 2 - Pushing light and dark point close together==
 
 This is marked with red pen in window screenshot. Also boosting of sharpness sliders is needed/possible. The advantage of this approach is that you see result in preview. In the image below, the result is the image marked with "3". As you can see, the saturation of this resulting image is quite poor, and saturating directly this image do not provide good results. So I saturated original image (set as bottom layer) and set mode of image "3" (upper layer) to "value" and result is image "4". Crappy but this wiki is to show you possibilities not work of art.
 
