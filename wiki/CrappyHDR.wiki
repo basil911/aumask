@@ -2,7 +2,7 @@
 
 = Introduction =
 
-I'm no fan of HDR, and it is not a purpose of this plugin, but if stretched too far, it can give such outputs. Here I will introduce how you can achieve it.
+I'm no fan of HDR, and it is not a purpose of this plugin, but if you push capabilities too far you can get such outputs. Here I will introduce how you can achieve it.
 
 
 = Two options =
