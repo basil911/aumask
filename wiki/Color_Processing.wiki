@@ -1,4 +1,4 @@
-#summary Discussion on color spaces used in aumask.
+#summary How it works (incomplete).
 
 = Algorithm of advanced unsharp mask =
 
@@ -56,3 +56,5 @@ gfloat avg,new_avg           #brightness (or call it whatever you what) of indiv
 }}}
 
 values below 0 and above 255 are clipped.
+
+**This page is incomplete and I dont work on it. If you are interesting in more details, let me know -by email if possible**
