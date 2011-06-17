@@ -37,19 +37,11 @@ http://aumask.googlecode.com/files/halo-efect-example.jpg
 
 From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
 
-= Exporting mask/differences to new layer (AKA Poor man's HDR) =
+= Poor man's HDR =
 
 (from version 0.7.3) 
 
-There are two new buttons "Export mask" amd "Export differences". First one export mask into new layer - this is primary motive when I added this functionality.
-
-But second one is used for (as I named it) poor man's HDR. The button exports differences between mask and image. The resulting layer looks like (crappy) HDR, especialy if you use colors from original image (swith mode for layer in layers window to "value").
-
-There is spinbutton next to "export differences" button, where you can define multiplication of differences, because original differences can be too small...
-
-Also, keep in mind, that effect depends on radius...
-
-However, there are two limitation with these two buttons - brightness adjustment spinboxes doesnt affect result, and preview doesnt work fully with them (You will learn when you will work with it.)
+This is side effect of implemented algorithm, below is an example and you can visit another wiki page here: http://code.google.com/p/aumask/wiki/CrappyHDR if you are interested
 
 http://aumask.googlecode.com/files/poor_mans_HDR.jpg
 
