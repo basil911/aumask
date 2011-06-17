@@ -35,6 +35,14 @@ http://aumask.googlecode.com/files/halo-efect-example.jpg
 
 From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
 
+= Exporting mask/differences to new layer =
+
+(from version 0.7.3) 
+
+There are two new buttons "Export mask" amd "Export differences" that allow you to save mask to separate layer. Second button ("export differences" exports differences between mask and original image, here is example what can be done with this. Second image is exported "differences" and then I switched mode (in layers dialog) to "value". Of course, we are getting far from original intended use of this plugin.
+
+http://aumask.googlecode.com/files/poor_mans_HDR.jpg
+
 = Please note =
 
 that plugin is still unfinished, any ideas and feedback is welcomed.
