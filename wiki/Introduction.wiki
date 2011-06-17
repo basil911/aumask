@@ -1,3 +1,5 @@
+#summary Introduction, very basic guide and examples
+
 = Introduction of Advanced Unsharp Mask =
 
 I presume you understand what unsharp mask is and how it works.
