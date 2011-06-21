@@ -8,7 +8,7 @@ I'm no fan of HDR, and it is not a purpose of this plugin, but if you push capab
 = Two options =
 
 
-There are two basic options. Please look at the screenshot of plugin window v. 0.7.4. 
+There are two basic options. Please look at the screenshot of plugin window v. 0.7.5. 
 
 http://aumask.googlecode.com/files/Window_for_HDR_0.7.5.png
 
