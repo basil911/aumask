@@ -10,7 +10,7 @@ I'm no fan of HDR, and it is not a purpose of this plugin, but if you push capab
 
 There are two basic options. Please look at the screenshot of plugin window v. 0.7.4. 
 
-http://aumask.googlecode.com/files/Crappy_window.png
+http://aumask.googlecode.com/files/Window_for_HDR_0.7.5.png
 
  ==Procedure 1 - Export mask differences==
 
