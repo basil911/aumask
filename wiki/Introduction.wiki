@@ -8,7 +8,7 @@ First, here is an image of dialog window (v 0.7) - to get some idea what you can
 
 http://aumask.googlecode.com/files/selective_mask.png
 
-= Sharpening with this plugin = 
+== Sharpening with this plugin ==
 
 This is primary use of this plugin, yet I have nothing special to say about this functionality. Here is an example image:
 
