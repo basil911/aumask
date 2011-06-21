@@ -33,10 +33,6 @@ I already mentioned selective mask/blurring above. Here is an example, that show
 
 http://aumask.googlecode.com/files/halo-efect-example.jpg
 
-=== Alternate colorspaces ===
-
-From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
-
 == Blurring the image ==
 
 Yes, it might seem to be a paradox for sharpening tool, but when you draw sliders down to zero, image becames blurred - technically every pixel overtakes brightness from mask. You can use this for simple removal of noise -  try use selective blur mask with minimal treshold and small radius.
@@ -49,6 +45,11 @@ This is side effect of implemented algorithm, below is an example and you can vi
 
 http://aumask.googlecode.com/files/poor_mans_HDR.jpg
 
-= Please note =
 
-that plugin is still unfinished, any ideas and feedback is welcomed.
+=== Alternate colorspaces ===
+
+From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
+
+=== Final note ===
+
+Any ideas and feedback is welcomed (to email prefferably).
