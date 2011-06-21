@@ -14,7 +14,7 @@ This is primary use of this plugin, yet I have nothing special to say about this
 
 http://aumask.googlecode.com/files/forest-example.JPG
 
-= Non-sharpening use =
+== Non-sharpening use ==
 
 Secondary, but very important feature is manipulation of overall contrast and/or brightness of an image. Note that it manipulates overall brightness via blurred mask, not directly pixels. So you can use this plugin also to reduce overall contrast of image while preserving (or increasing) local contrast. 
 
@@ -27,17 +27,21 @@ Below is another example, where I reduced global contrast, yet increased local c
 
 http://aumask.googlecode.com/files/castle-example.JPG
 
-= Selective mask =
+=== Selective mask ===
 
 I already mentioned selective mask/blurring above. Here is an example, that shows original, sharpening with normal (in the middle) and selective mask (right side). Notice halo efects in the middle section - around trees. Of course, this effect can be mitigated by bigger or contrary -smaller radius of blurring.
 
 http://aumask.googlecode.com/files/halo-efect-example.jpg
 
-= Alternate colorspaces =
+=== Alternate colorspaces ===
 
 From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
 
-= Poor man's HDR =
+== Blurring the image ==
+
+Yes, it might seem to be a paradox for sharpening tool, but when you draw sliders down to zero, image becames blurred - technically every pixel overtakes brightness from mask. You can use this for simple removal of noise -  try use selective blur mask with minimal treshold and small radius.
+
+== Poor man's HDR ==
 
 (from version 0.7.3) 
 
