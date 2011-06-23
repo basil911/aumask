@@ -4,9 +4,10 @@
 
 I presume you understand what unsharp mask is and how it works.
 
-First, here is an image of dialog window (v 0.7) - to get some idea what you can control and do with this plugin. Note that plugin is enlarged to get bigger preview (it fill available space automatically)
+First, here is an image of dialog window (v 0.8) - to get some idea what you can control and do with this plugin. Note that you can get bigger preview if you enlarge the plugin window (it fills available space automatically, just be aware that the preview keeps the square shape, this is hardcoded in gimp)
 
-http://aumask.googlecode.com/files/selective_mask.png
+http://aumask.googlecode.com/files/plugin_GUI_0.8.png
+
 
 == Sharpening with this plugin ==
 
