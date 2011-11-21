@@ -15,6 +15,10 @@ This is primary use of this plugin, yet I have nothing special to say about this
 
 http://aumask.googlecode.com/files/forest-example.JPG
 
+* Sharpening via mask *
+
+Alternative procedure of sharpening is to "export differences" (look below to crappy HDR example), then change a new layer to "value" mode and play with transparency slider. You can even export two or more such layers created with different radiuses.... The advantage is that all tweaking is done with sliders and you can see effect in real-time on whole image.
+
 == Non-sharpening use ==
 
 Secondary, but very important feature is manipulation of overall contrast and/or brightness of an image. Note that it manipulates overall brightness via blurred mask, not directly pixels. So you can use this plugin also to reduce overall contrast of image while preserving (or increasing) local contrast. 
