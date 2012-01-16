@@ -18,7 +18,7 @@ The plugin offers three colospaces. So it emploies different approaches to get b
 || calculating value|| 0.299*t + 0.587*g + 0.114*b || gimp_rgb_to_hsv || gimp_rgb_to_hsl ||
 || getting new brightness || common algorithm ||
 || getting new values (floats 0-1) || RGB differences added to new brightness || gimp_hsv_to_rgb() where v is changed || gimp_hsl_to_rgb() where l is changed ||
-|| getting int (0-255) || (r^2.2)* 255 || r*255 || r*255||
+|| getting int (0-255) || r^2.2*255 || r*255 || r*255||
 
 
 few comments to the table
