@@ -1,5 +1,32 @@
 #summary How it works (incomplete).
 
+= Partial algorithm of advanced unsharp mask =
+
+Goal of this wiki is to 
+
+  # explain how RGB values are processed by individual colorspaces
+  # provide room for discussion and description of implementation of other color modes - as required by users
+
+
+= Current processing as by 0.8 version: =
+
+
+
+|| step || OWN || HSV || HSL ||
+|| initial conversion || r = (R/255)^(1/2.2) || r=R/255 || r=R/255 ||
+|| calculating value|| 0.299*t + 0.587*g + 0.114*b || gimp_rgb_to_hsv || gimp_rgb_to_hsl ||
+|| getting new brightness || common algorithm ||
+|| getting new values (floats 0-1) || RGB differences added to new brightness || gimp_hsv_to_rgb() where v is changed || gimp_hsl_to_rgb() where l is changed ||
+|| getting int (0-255) || (r^2.2)*255 || r*255 || r*255||
+
+
+few comments to the table
+
+   * R,G and B are used for integers 0-255
+   * r,g and b are used for floats 0-1
+   * in lines where I list only formula for r, the same is used for g and b
+   * values below 0 and above 1 are clipped before conversion to final RGB.
+
 = Algorithm of advanced unsharp mask =
 
 Goal of this wiki is to 
