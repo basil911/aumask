@@ -55,6 +55,12 @@ http://aumask.googlecode.com/files/poor_mans_HDR.jpg
 
 From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
 
+=== What's ahead ===
+
+Well, I resumed work on this plugin, one of reasons is that I was not satisfied with selective blurring algorithms. So here (download section) is new version 0.8.1, still "development", but it contain enhances blurring alghorithm. Thre were other changes, I will write about them once it is out. For now, here is a screenshot of plugin window:
+
+http://aumask.googlecode.com/files/aumask-0.8.1-window.png
+
 === Final note ===
 
 Any ideas and feedback is welcomed (to email prefferably).
