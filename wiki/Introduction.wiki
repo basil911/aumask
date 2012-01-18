@@ -1,6 +1,6 @@
 #summary Introduction, very basic guide and examples
 
-==== Advanced Unsharp Mask ====
+= Advanced Unsharp Mask =
 
 This is quite versatile plugin that can do few things with unsharp mask. Unsharp mask, if you do not know it is like blurred copy of current image (layer) that is used to sharpen the original. Sharpening here is meant increasing of distance (in brightness) between original image and the unsharp mask.
 
@@ -10,29 +10,29 @@ First, here is screenshot of latest version of plugin
 
 http://aumask.googlecode.com/files/aumask-0.8.2-window.png
 
-===Briew overview of capabilities===
+==Briew overview of capabilities==
 
-==Two types of blurring==
+===Two types of blurring===
 
   * Normal
   * Selective (with post-blur alternative)
 
-==Four types of output==
+===Four types of output===
 
   * Image (what you get after sharpening
   * Mask (important to when tweaking setting)
   * Splitted mode (to compare effects)
   * Mask-to-img difference (for "creative" purposes)
 
-== Brightness via mask modification ==
+=== Brightness via mask modification ===
 
 level like tools that modifies 0 and 1 values, usefull when you need to compress brightness of image while preserving local contrast
 
-== Out-of-range protection ==
+=== Out-of-range protection ===
 
 Makes sure that to pixels get below 0 or above 1 and are clipped afterwards. Just note this works with brightness, and ignore individual RGB values, so some clipping in individual channel can happen
 
-== Alternative colospaces ==
+=== Alternative colospaces ===
 
 Primarily the plugin calclulates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness
 
