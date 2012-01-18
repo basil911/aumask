@@ -1,10 +1,41 @@
 #summary Introduction, very basic guide and examples
 
-= Introduction of Advanced Unsharp Mask =
 
-I presume you understand what unsharp mask is and how it works.
+This is quite versatile plugin that can do few things with unsharp mask. Unsharp mask, if you do not know it is like blurred copy of current image (layer) that is used to sharpen the original. Sharpening here is meant increasing of distance (in brightness) between original image and the unsharp mask.
 
-First, here is an image of dialog window (v 0.8) - to get some idea what you can control and do with this plugin. Note that you can get bigger preview if you enlarge the plugin window (it fills available space automatically, just be aware that the preview keeps the square shape, this is hardcoded in gimp)
+You can achieve this effect with native gimp's Unshapr mask" but my plugin is much more complex.
+
+First, here is screenshot of latest version of plugin
+
+http://aumask.googlecode.com/files/aumask-0.8.2-window.png
+
+==Briew overview of capabilities==
+
+**Two types of blurring**
+
+  * Normal
+  * Selective (with post-blur alternative)
+
+**Four types of output**
+
+  * Image (what you get after sharpening
+  * Mask (important to when tweaking setting)
+  * Splitted mode (to compare effects)
+  * Mask-to-img difference (for "creative" purposes)
+
+** Brightness via mask modification**
+
+level like tools that modifies 0 and 1 values, usefull when you need to compress brightness of image while preserving local contrast
+
+** Out-of-range protection **
+
+Makes sure that to pixels get below 0 or above 1 and are clipped afterwards. Just note this works with brightness, and ignore individual RGB values, so some clipping in individual channel can happen
+
+** Alternative colospaces **
+
+Primarily the plugin calclulates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness
+
+==Below is old part of this wiki page, Im continually rewriting the whole page so take the section below as obsolete. ==
 
 http://aumask.googlecode.com/files/plugin_GUI_0.8.png
 
