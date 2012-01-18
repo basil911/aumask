@@ -1,5 +1,6 @@
 #summary Introduction, very basic guide and examples
 
+=== Advanced Unsharp Mask ===
 
 This is quite versatile plugin that can do few things with unsharp mask. Unsharp mask, if you do not know it is like blurred copy of current image (layer) that is used to sharpen the original. Sharpening here is meant increasing of distance (in brightness) between original image and the unsharp mask.
 
