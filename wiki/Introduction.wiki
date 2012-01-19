@@ -40,7 +40,7 @@ Primarily the plugin calclulates brightness with own formula, but you can switch
 
 ===General notes===
 
-I presume you have plugin installed, because it is better to try it then only read about it. So open any image and start the plugin. First note, preview is auto-expandable, so  you might want to enlarge plugin to have the preview enlarged. Under preview, there is output combo box, please try some of options provided there and check results in preview.
+I presume you have plugin installed, because it is better to try it then only read about it. So open any image and start the plugin (Filters - Enhance - Aumask Sharpening). First note - preview is auto-expandable so  you might want to enlarge plugin to have the preview enlarged. Under preview, there is output combo box, please try some of options provided there and check results in preview.
 
 
 ===1. Simple sharpening===
