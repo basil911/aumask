@@ -40,42 +40,42 @@ Primarily the plugin calclulates brightness with own formula, but you can switch
 
 ===General notes===
 
-I presume you have plugin installed, because it is better to try it then only read about it. So open any image and start the plugin (Filters - Enhance - Aumask Sharpening). First note - preview is auto-expandable so  you might want to enlarge plugin to have the preview enlarged. Under preview, there is output combo box, please try some of options provided there and check results in preview.
+I presume you have plugin installed, because it is better to try it then only read about it. So open any image and start the plugin (Filters - Enhance - Aumask Sharpening). First note - preview is auto-expandable so  you might want to enlarge plugin to have the preview enlarged. There is the Output combo box under the preview, please try out some of options provided there and check results in preview.
 
 
 ===1. Simple sharpening===
 
-This is very elementary function of the plugin. It is based on sharpness equalizer. Sliders changes current distance between original and mask and every one controls own distance. Keep mouse over any slider to see actual ammount. Here with this functionality, I'm not sure if "sharpness equalizer is" iz usefull or better then single amount sharpening. So play with sliders and play with "radius" in the right side. You should have selected "standard blur" mode. Change views (output) in previews to see effect. My advice is to keep all sliders in the similar level. And here is an example:
+This is very elementary function of the plugin. It is based on sharpness equalizer. Sliders changes current distance between original and mask and each one controls own distance. Keep mouse over any slider to see actual ammount. Here with this functionality, I'm not sure if "sharpness equalizer" is that usefull or better then a 'single amount' sharpening. So play with sliders and play with "radius" in the right side. You should have selected "standard blur" mode. Change the view (Output mode) in previews to see an effect. My advice is to keep all sliders in the similar level. And here is an example:
 
-http://aumask.googlecode.com/files/forest-example.JPG - forest
+http://aumask.googlecode.com/files/forest-example.JPG
 
 ===2. Brightness modification===
 
-One of controls on the right side is "Brightness adjustment". This modifies brightness via mask. So the efect is that it preserves local contrast. Usually with this option you will want to compress brightness range of image. So play with those two spinboxes and radius as well and check the effect.
+One of controls on the right side is "Brightness adjustment". This modifies brightness via mask. So the efect is that it preserves local contrast. Usually with this option you will want to compress brightness range of image. So play with those two spinboxes and blur radius as well to see the effect.
 
 Obligatory example:
 
-http://aumask.googlecode.com/files/castle-example.JPG - castle
+http://aumask.googlecode.com/files/castle-example.JPG
 
-===3. selective mask - blur elimination===
+===3. Selective mask - Blur elimination===
 
-I believe that you noticed "hallo" efect in areas where two areas with very different brightness meet. To avoid this I Im introducting here also selective mask (combo box in Mask Options). For now try only basic selective mask without postblur. The idea here is to not blur together areas with very different brightness. The best for you would be just play with it by yourself, change view to mask mode and play with treshold (start with decreasing it)
+I believe that you noticed "hallo" efect in areas where two areas with very different brightness meet. To avoid this I'm introducting here also selective mask (combo box in Mask Options). For now try only basic selective mask without postblur. The idea here is not to blur together areas with very different brightness. The best for you would be just play with it by yourself, change view to 'mask mode' and play with treshold (start with decreasing it)
 
 Here is example (sorry no image of mask) and comparison of sharpening with normal and selective mask (one has hallo efect, the second one do not have):
 
-http://aumask.googlecode.com/files/halo-efect-example.jpg - cintorin, irsko
+http://aumask.googlecode.com/files/halo-efect-example.jpg
 
-===4. Selective mask - contrast reduction===
+===4. Selective mask - Contrast reduction===
 
 Another purpose of selective contrast mask is reduction of contrast without hallo effect. Note that sharpening here is optional.
 
-http://aumask.googlecode.com/files/selective_efficiency.JPG - z domu, irsko
+http://aumask.googlecode.com/files/selective_efficiency.JPG
 
 ===5. Selective mask with postblur===
 
-Sometimes I noticed artefacts on "borders", so I added a "postblur" blurring to the script to soften transitions between areas. No example yet, I will add it shortly
+Sometimes I noticed artefacts on "borders", so I added a "postblur" blurring to the script to soften transitions between areas. No example yet, I will add it soon
 
-===5. mask-to-img difference===
+===6. Mask-to-img difference===
 
 Another possibility (it is up to you what you could do with it) is "mask to img difference". You can select it in output combo box and also play with controls under Mask-to-Img parameters.
 
