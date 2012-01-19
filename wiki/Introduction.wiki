@@ -36,64 +36,58 @@ Makes sure that to pixels get below 0 or above 1 and are clipped afterwards. Jus
 
 Primarily the plugin calclulates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness
 
-* ######################################################## *
+==Introductory step-by-step guide==
 
-==Below is old part of this wiki page, Im continually rewriting the whole page so take the section below as obsolete. ==
+===General notes===
 
-http://aumask.googlecode.com/files/plugin_GUI_0.8.png
-
-
-== Sharpening with this plugin ==
-
-This is primary use of this plugin, yet I have nothing special to say about this functionality. Here is an example image:
-
-http://aumask.googlecode.com/files/forest-example.JPG
-
-* Sharpening via mask *
-
-Alternative procedure of sharpening is to "export differences" (look below to crappy HDR example), then change a new layer to "value" mode and play with transparency slider. You can even export two or more such layers created with different radiuses.... The advantage is that all tweaking is done with sliders and you can see effect in real-time on whole image.
-
-== Non-sharpening use ==
-
-Secondary, but very important feature is manipulation of overall contrast and/or brightness of an image. Note that it manipulates overall brightness via blurred mask, not directly pixels. So you can use this plugin also to reduce overall contrast of image while preserving (or increasing) local contrast. 
-
-Here is an example: this image has an bright area - sky and too dark area - below. Selective mask was used to virtually split image into two separate areas and then I reduced Light to about 0.8 and increased Dark to about 0.2. Please note, there are no "halo" efect" nor artifacts between these two areas . (At least not much visible)
-
-http://aumask.googlecode.com/files/selective_efficiency.JPG
+I presume you have plugin installed, because it is better to try it then only read about it. So open any image and start the plugin. First note, preview is auto-expandable, so  you might want to enlarge plugin to have the preview enlarged. Under preview, there is output combo box, please try some of options provided there and check results in preview.
 
 
-Below is another example, where I reduced global contrast, yet increased local contrast - sharpness of image. You can notice "hallo" efect on this image, thought not strong one -  because big radius was used (and standard mask) here.
+===1. Simple sharpening===
 
-http://aumask.googlecode.com/files/castle-example.JPG
+This is very elementary function of the plugin. It is based on sharpness equalizer. Sliders changes current distance between original and mask and every one controls own distance. Keep mouse over any slider to see actual ammount. Here with this functionality, I'm not sure if "sharpness equalizer is" iz usefull or better then single amount sharpening. So play with sliders and play with "radius" in the right side. You should have selected "standard blur" mode. Change views (output) in previews to see effect. My advice is to keep all sliders in the similar level. And here is an example:
 
-=== Selective mask ===
+http://aumask.googlecode.com/files/forest-example.JPG - forest
 
-I already mentioned selective mask/blurring above. Here is an example, that shows original, sharpening with normal (in the middle) and selective mask (right side). Notice halo efects in the middle section - around trees. Of course, this effect can be mitigated by bigger or contrary -smaller radius of blurring.
+===2. Brightness modification===
 
-http://aumask.googlecode.com/files/halo-efect-example.jpg
+One of controls on the right side is "Brightness adjustment". This modifies brightness via mask. So the efect is that it preserves local contrast. Usually with this option you will want to compress brightness range of image. So play with those two spinboxes and radius as well and check the effect.
 
-== Blurring the image ==
+Obligatory example:
 
-Yes, it might seem to be a paradox for sharpening tool, but when you draw sliders down to zero, image becames blurred - technically every pixel overtakes brightness from mask. You can use this for simple removal of noise -  try use selective blur mask with minimal treshold and small radius.
+http://aumask.googlecode.com/files/castle-example.JPG - castle
 
-== Poor man's HDR ==
+===3. selective mask - blur elimination===
 
-(from version 0.7.3) 
+I believe that you noticed "hallo" efect in areas where two areas with very different brightness meet. To avoid this I Im introducting here also selective mask (combo box in Mask Options). For now try only basic selective mask without postblur. The idea here is to not blur together areas with very different brightness. The best for you would be just play with it by yourself, change view to mask mode and play with treshold (start with decreasing it)
 
-This is side effect of implemented algorithm, below is an example and you can visit another wiki page here: http://code.google.com/p/aumask/wiki/CrappyHDR if you are interested
+Here is example (sorry no image of mask) and comparison of sharpening with normal and selective mask (one has hallo efect, the second one do not have):
+
+http://aumask.googlecode.com/files/halo-efect-example.jpg - cintorin, irsko
+
+===4. Selective mask - contrast reduction===
+
+Another purpose of selective contrast mask is reduction of contrast without hallo effect. Note that sharpening here is optional.
+
+http://aumask.googlecode.com/files/selective_efficiency.JPG - z domu, irsko
+
+===5. Selective mask with postblur===
+
+Sometimes I noticed artefacts on "borders", so I added a "postblur" blurring to the script to soften transitions between areas. No example yet, I will add it shortly
+
+===5. mask-to-img difference===
+
+Another possibility (it is up to you what you could do with it) is "mask to img difference". You can select it in output combo box and also play with controls under Mask-to-Img parameters.
+
+no example yet
+
+===6. HDR===
+
+Another option how to use functinality is something like this. 
 
 http://aumask.googlecode.com/files/poor_mans_HDR.jpg
 
 
-=== Alternate colorspaces ===
-
-From 0.6.5 you can use three colorspaces ("noname", HSV and HSL) and apply blur mask on general brightness, value and luminosity.
-
-=== What's ahead ===
-
-Well, I resumed work on this plugin, one of reasons is that I was not satisfied with selective blurring algorithms. So here (download section) is new version 0.8.1, still in heavy development, but it yet contains enhanced blurring algorithm. There were other changes, I will write about them once the plugin is again "stable". For now, here is a screenshot of plugin window:
-
-http://aumask.googlecode.com/files/aumask-0.8.1-window.png
 
 === Final note ===
 
