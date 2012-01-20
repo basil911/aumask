@@ -36,6 +36,8 @@ Makes sure that to pixels get below 0 or above 1 and are clipped afterwards. Jus
 
 Primarily the plugin calclulates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness
 
+<br>
+
 ==Introductory step-by-step guide==
 
 ===General notes===
