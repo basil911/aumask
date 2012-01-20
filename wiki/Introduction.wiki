@@ -69,13 +69,17 @@ Obligatory example:
 
 http://aumask.googlecode.com/files/castle-example.JPG
 
-===3. Selective mask - Blur elimination===
+===3. Selective mask - Hallo efect elimination===
 
 I believe that you noticed "hallo" efect in areas where two areas with very different brightness meet. To avoid this I'm introducting here also selective mask (combo box in Mask Options). For now try only basic selective mask without postblur. The idea here is not to blur together areas with very different brightness. The best for you would be just play with it by yourself, change view to 'mask mode' and play with treshold (start with decreasing it)
 
 Here is example (sorry no image of mask) and comparison of sharpening with normal and selective mask (one has hallo efect, the second one do not have):
 
 http://aumask.googlecode.com/files/halo-efect-example.jpg
+
+And another example (I know the photo itself is of poor quality):
+
+http://aumask.googlecode.com/files/normal_vs_selective.JPG
 
 ===4. Selective mask - Contrast reduction===
 
