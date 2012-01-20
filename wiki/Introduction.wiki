@@ -93,13 +93,13 @@ Another possibility (it is up to you what you could do with it) is "mask to img 
 
 no example yet
 
-===6. HDR===
+===7. HDR===
 
 Another option how to use functinality is something like this. 
 
 http://aumask.googlecode.com/files/poor_mans_HDR.jpg
 
-
+<br>
 
 === Final note ===
 
