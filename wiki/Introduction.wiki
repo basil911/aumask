@@ -89,7 +89,7 @@ http://aumask.googlecode.com/files/selective_efficiency.JPG
 
 ===5. Selective mask with postblur===
 
-Sometimes I noticed artefacts on "borders", so I added a "postblur" blurring to the script to soften transitions between areas. No example yet, I will add it soon
+Sometimes I noticed artefacts on "borders", so I added a "postblur" blurring to the script to soften transitions between areas. I dont have the example now, but keep in mind that such feature is there.
 
 ===6. Mask-to-img difference===
 
