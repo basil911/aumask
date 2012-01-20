@@ -2,7 +2,7 @@
 
 <br>
 
-<h1 align="center">  Advanced Unsharp Mask </h1>
+= Advanced Unsharp Mask =
 
 <br>
 
