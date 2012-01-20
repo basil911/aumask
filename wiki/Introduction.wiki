@@ -1,6 +1,10 @@
 #summary Introduction, very basic guide and examples
 
+<br>
+
 = Advanced Unsharp Mask =
+
+<br>
 
 This is quite versatile plugin that can do few things with unsharp mask. Unsharp mask, if you do not know it is like blurred copy of current image (layer) that is used to sharpen the original. Sharpening here is meant increasing of distance (in brightness) between original image and the unsharp mask.
 
@@ -10,7 +14,11 @@ First, here is screenshot of latest version of plugin
 
 http://aumask.googlecode.com/files/aumask-0.8.2-window.png
 
+<br>
+
 ==Briew overview of capabilities==
+
+<br>
 
 ===Two types of blurring===
 
@@ -39,6 +47,8 @@ Primarily the plugin calclulates brightness with own formula, but you can switch
 <br>
 
 ==Introductory step-by-step guide==
+
+<br>
 
 ===General notes===
 
