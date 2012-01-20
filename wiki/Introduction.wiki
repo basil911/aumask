@@ -14,7 +14,7 @@ First, here is screenshot of latest version of plugin
 
 http://aumask.googlecode.com/files/aumask-0.8.2-window.png
 
-<br>
+<br><br>
 
 ==Briew overview of capabilities==
 
@@ -44,7 +44,7 @@ Makes sure that to pixels get below 0 or above 1 and are clipped afterwards. Jus
 
 Primarily the plugin calclulates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness
 
-<br>
+<br><br>
 
 ==Introductory step-by-step guide==
 
