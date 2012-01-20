@@ -77,7 +77,7 @@ Here is example (sorry no image of mask) and comparison of sharpening with norma
 
 http://aumask.googlecode.com/files/halo-efect-example.jpg
 
-And another example (I know the photo itself is of poor quality):
+Below is another example. I know the photo itself is of poor quality. This example contains also image of mask. On the left, there is normal mask, and selective mask is used to the right. 
 
 http://aumask.googlecode.com/files/normal_vs_selective.JPG
 
