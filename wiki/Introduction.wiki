@@ -57,13 +57,13 @@ I presume you have plugin installed, because it is better to try it then only re
 
 ===1. Simple sharpening===
 
-This is very elementary function of the plugin. It is based on sharpness equalizer. Sliders changes current distance between original and mask and each one controls own distance. Keep mouse over any slider to see actual ammount. Here with this functionality, I'm not sure if "sharpness equalizer" is that usefull or better then a 'single amount' sharpening. So play with sliders and play with "radius" in the right side. You should have selected "standard blur" mode. Change the view (Output mode) in previews to see an effect. My advice is to keep all sliders in the similar level. And here is an example:
+This is very elementary function of the plugin. It is based on sharpness equalizer. Sliders changes current distance between original and mask and each one controls own distance. Keep mouse over any slider to see actual ammount. Here with this functionality, I'm not sure if _sharpness equalizer_ is that usefull or better then a 'single amount' sharpening. So play with sliders and play with "radius" in the right side. You should have selected "standard blur" mode. Change the view (_Output_ mode) in previews to see an effect. My advice is to keep all sliders in the similar level. And here is an example:
 
 http://aumask.googlecode.com/files/forest-example.JPG
 
 ===2. Brightness modification===
 
-One of controls on the right side is "Brightness adjustment". This modifies brightness via mask. So the effect is that it preserves local contrast. Usually with this option you will want to compress brightness range of image. So play with those two spinboxes and blur radius as well to see the effect.
+One of controls on the right side is _Brightness adjustment_. This modifies brightness via mask. So the effect is that it preserves local contrast. Usually with this option you will want to compress brightness range of image. So play with those two spinboxes and _blur radius_ as well to see the effect.
 
 Obligatory example:
 
@@ -71,9 +71,9 @@ http://aumask.googlecode.com/files/castle-example.JPG
 
 ===3. Selective mask - Hallo efect elimination===
 
-I believe that you noticed "hallo" efect in areas where two areas with very different brightness meet. To avoid this I'm introducting here also selective mask (combo box in Mask Options). For now try only basic selective mask without postblur. The idea here is not to blur together areas with very different brightness. The best for you would be just play with it by yourself, change view to 'mask mode' and play with treshold (start with decreasing it)
+I believe that you noticed "hallo" efect in areas where two areas with very different brightness meet. To avoid this I'm introducting here also _selective mask_ (combo box in _Mask Options_). For now try only basic selective mask without postblur. The idea here is not to blur together areas with very different brightness. The best for you would be just play with it by yourself, change view to _mask_ mode and play with _threshold_ (start with decreasing it)
 
-Here is example (sorry no image of mask) and comparison of sharpening with normal and selective mask (one has hallo efect, the second one do not have):
+Here is example (sorry no image of mask) and comparison of sharpening with normal and selective mask (one has hallo effect, the second one do not have):
 
 http://aumask.googlecode.com/files/halo-efect-example.jpg
 
@@ -89,11 +89,11 @@ http://aumask.googlecode.com/files/selective_efficiency.JPG
 
 ===5. Selective mask with postblur===
 
-Sometimes I noticed artifacts on "borders", so I added a "postblur" blurring to the script to soften transitions between areas. I dont have the example now, but keep in mind that such feature is there.
+Sometimes I noticed artifacts on "borders", so I added a "postblur" blurring to the script to soften transitions between areas. I don't have the example now, but keep in mind that such feature is there.
 
 ===6. Mask-to-img difference===
 
-Another possibility (it is up to you what you could do with it) is "Mask-to-img difference". Here the output is depending on radius, type of mask, but in addition you can use controls under _Mask-to-Img parameters_.
+Another possibility (it is up to you what you could do with it) is _Mask-to-img difference_. Here the output is depending on radius, type of mask, but in addition you can use controls under _Mask-to-Img parameters_.
 
 Examples:
 
