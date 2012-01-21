@@ -38,11 +38,11 @@ level like tools that modifies 0 and 1 values, usefull when you need to compress
 
 === Out-of-range protection ===
 
-Makes sure that to pixels get below 0 or above 1 and are clipped afterwards. Just note this works with brightness, and ignore individual RGB values, so some clipping in individual channel can happen
+During sharpening some pixels can get out of visible 0 - 1 range, with this function you can prevent this. Just note, that this works with brightness and while brightness might be kept withing 0-1 range some channels (RGB) still can get out of range and be clipped.
 
 === Alternative colospaces ===
 
-Primarily the plugin calculates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness
+Primarily the plugin calculates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness as a "brightness".
 
 <br><br>
 
@@ -93,7 +93,7 @@ Sometimes I noticed artifacts on "borders", so I added a "postblur" blurring to 
 
 ===6. Mask-to-img difference===
 
-Another possibility (it is up to you what you could do with it) is "mask to img difference". You can select it in output combo box and also play with controls under Mask-to-Img parameters.
+Another possibility (it is up to you what you could do with it) is "Mask-to-img difference". Here the output is depending on radius, type of mask, but in addition you can use controls under _Mask-to-Img parameters_.
 
 Examples:
 
