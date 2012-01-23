@@ -73,9 +73,9 @@ http://aumask.googlecode.com/files/castle-example.JPG
 
 I believe that you noticed "hallo" efect in areas where two areas with very different brightness meet. To avoid this I'm introducting here also _selective mask_ (combo box in _Mask Options_). For now try only basic selective mask without postblur. The idea here is not to blur together areas with very different brightness. The best for you would be just play with it by yourself, change view to _mask_ mode and play with _threshold_ (start with decreasing it)
 
-Here is example (sorry no image of mask) and comparison of sharpening with normal and selective mask (one has hallo effect, the second one do not have):
+Here is example (sorry no image of mask) and comparison of sharpening with normal and selective mask. The image is split to four strips - original, sharpened with normal mask (note halo above the trees), sharpened with selective mask and previous one once again but saturated:
 
-http://aumask.googlecode.com/files/halo-efect-example.jpg
+http://aumask.googlecode.com/files/Normal_vs_selective-coast.jpg
 
 Below is another example. (I know the photo itself is of poor quality) This example show comparison of masks and resulting images. (Normal and selective) 
 
