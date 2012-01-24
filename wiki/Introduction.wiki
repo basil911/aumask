@@ -6,9 +6,7 @@
 
 <br>
 
-This is quite versatile plugin that makes use of the unsharp mask. The unsharp mask is blurred copy of current image (layer) that is used to sharpen the images. Sharpening here is meant increasing the distance (in brightness) between original image and the unsharp mask.
-
-You can achieve this effect with native gimp's Unshapr mask" but my plugin is much more complex and versatile.
+Unsharp mask is commonly used tool to increase perceived sharpness of image. Or in other words - increase local contrast of image. Gimp by default contains unsharp mask tool, but this one is very basic. So this plugin exists to improve capabilities of the unsharp mask. See below for more info.
 
 First, here is screenshot of latest version of plugin
 
