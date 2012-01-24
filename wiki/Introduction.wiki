@@ -30,9 +30,9 @@ http://aumask.googlecode.com/files/aumask-0.8.2-window.png
   * Splitted mode (to compare the effect)
   * Mask-to-img difference (for "creative" purposes)
 
-=== Brightness via mask modification ===
+=== Brightness via mask manipulation ===
 
-_Levels_ like tools that stretches or compresses the brightness rangwe of of image, usefull when you need to compress brightness of image while preserving local contrast
+This tool is intended to manipulate overall brightness and/or contrast of image. Note that this tool works via unsharp mask not actual value of individual pixels. One of effects is that this way local contrast is preserved.
 
 === Out-of-range protection ===
 
