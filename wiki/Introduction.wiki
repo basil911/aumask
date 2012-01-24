@@ -6,7 +6,7 @@
 
 <br>
 
-Unsharp mask is commonly used tool to increase perceived sharpness of image. Or in other words - increase local contrast of image. Gimp by default contains unsharp mask tool, but this one is very basic. So this plugin exists to improve capabilities of the unsharp mask. See below for more info.
+Unsharp mask is commonly used tool to increase perceived sharpness of image. Or in other words - increase local contrast of image. The Gimp by default contains unsharp mask tool, but that one is very basic. So this plugin exists to improve capabilities of the unsharp mask. See below for more info.
 
 First, here is screenshot of latest version of plugin
 
