@@ -6,9 +6,9 @@
 
 <br>
 
-This is quite versatile plugin that can do few things with unsharp mask. Unsharp mask, if you do not know it is like blurred copy of current image (layer) that is used to sharpen the original. Sharpening here is meant increasing of distance (in brightness) between original image and the unsharp mask.
+This is quite versatile plugin that makes use of the unsharp mask. The unsharp mask is blurred copy of current image (layer) that is used to sharpen the images. Sharpening here is meant increasing the distance (in brightness) between original image and the unsharp mask.
 
-You can achieve this effect with native gimp's Unshapr mask" but my plugin is much more complex.
+You can achieve this effect with native gimp's Unshapr mask" but my plugin is much more complex and versatile.
 
 First, here is screenshot of latest version of plugin
 
@@ -22,19 +22,21 @@ http://aumask.googlecode.com/files/aumask-0.8.2-window.png
 
 ===Two types of blurring===
 
+Standard mask is simply blurred image, but my plugin allows also selective blurring for mask. So folowing two basic blurring are avaiable:
+
   * Normal
-  * Selective (with post-blur alternative)
+  * Selective (with a post-blurring as alternative)
 
 ===Four types of output===
 
-  * Image (what you get after sharpening
-  * Mask (important to when tweaking setting)
-  * Splitted mode (to compare effects)
+  * Sharpened image (this is expected output of this plugin)
+  * Mask (might be important when tweaking settings)
+  * Splitted mode (to compare the effect)
   * Mask-to-img difference (for "creative" purposes)
 
 === Brightness via mask modification ===
 
-level like tools that modifies 0 and 1 values, usefull when you need to compress brightness of image while preserving local contrast
+_Levels_ like tools that stretches or compresses the brightness rangwe of of image, usefull when you need to compress brightness of image while preserving local contrast
 
 === Out-of-range protection ===
 
