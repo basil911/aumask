@@ -8,7 +8,7 @@
 
 Unsharp mask is commonly used tool to increase perceived sharpness of image. Or in other words - increase local contrast of image. The Gimp by default contains unsharp mask tool, but that one is very basic. So this plugin exists to improve capabilities of the unsharp mask. See below for more info.
 
-First, here is screenshot of latest version of plugin
+First, here is the screenshot of latest version of plugin:
 
 http://aumask.googlecode.com/files/aumask-0.8.2-window.png
 
@@ -21,7 +21,7 @@ http://aumask.googlecode.com/files/aumask-0.8.2-window.png
 ===Two types of blurring===
 
   * Normal (simple blur, this is standard for unsharp mask)
-  * Selective (this is my additions, the purpose is to prevent occurence of halo efect between areas with too diferent brightness)
+  * Selective (this is my addition, the purpose is to prevent occurence of halo effect between areas with too diferent brightness)
 
 ===Four types of output===
 
@@ -32,7 +32,7 @@ http://aumask.googlecode.com/files/aumask-0.8.2-window.png
 
 === Brightness via mask manipulation ===
 
-This tool is intended to manipulate overall brightness and/or contrast of image. Note that this tool works via unsharp mask not actual value of individual pixels. One of effects is that this way local contrast is preserved.
+This tool is intended to manipulate overall brightness and/or contrast of image. Note that this tool works via unsharp mask not an actual value of individual pixels. One of effects is that this way local contrast is preserved.
 
 === Out-of-range protection ===
 
@@ -51,7 +51,7 @@ Primarily the plugin calculates brightness with own formula, but you can switch 
 
 ===General notes===
 
-I presume you have plugin installed, because it is better to try it then only read about it. So open any image and start the plugin (Filters - Enhance - Aumask Sharpening). First note - preview is auto-expandable so  you might want to enlarge plugin to have the preview enlarged. There is the Output combo box under the preview, please try out some of options provided there and check results in preview.
+I presume you have plugin installed, because it is better to try it then only read about it. So open any image and start the plugin (Filters - Enhance - Aumask Sharpening). First note - preview is auto-expandable so  you might want to enlarge plugin to have the preview enlarged. There is the _Output_ combo box under the preview, please try out some of options provided there and check results in preview.
 
 
 ===1. Simple sharpening===
