@@ -10,7 +10,8 @@ Unsharp mask is commonly used tool to increase perceived sharpness of image. Or 
 
 First, here is the screenshot of latest version of plugin:
 
-http://aumask.googlecode.com/files/aumask-0.8.2-window.png
+http://aumask.googlecode.com/files/aumask-0.9.0-window.png
+
 
 <br><br>
 
