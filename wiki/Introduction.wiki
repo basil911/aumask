@@ -111,4 +111,11 @@ http://aumask.googlecode.com/files/poor_mans_HDR.jpg
 
 === Final note ===
 
-Any ideas and feedback is welcomed (to email prefferably).
+Any ideas and feedback is welcomed (to email prefferably: tiborb95 at gmail dot com).
+
+<br>
+------
+
+_This plugin is distributed for free and under GPL license. I dont expect earning big money from this, but if the tool is useful/interesting/fun to use for you, you can consider paying a voluntary price for the time I spent developing and maintaining it._
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GBERSY833N4AA" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"></img></a>
