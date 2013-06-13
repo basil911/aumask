@@ -8,7 +8,7 @@
 
 Unsharp mask is commonly used tool to increase perceived sharpness of image. Or in other words - increase local contrast of image. The Gimp by default contains unsharp mask tool, but that one is very basic. So this plugin exists to improve capabilities of the unsharp mask. See below for more info.
 
-First, here is the screenshot of latest version of plugin:
+First, here is the screenshot of version 0.9.0 of the plugin:
 
 http://aumask.googlecode.com/files/aumask-0.9.0-window.png
 
@@ -35,14 +35,14 @@ http://aumask.googlecode.com/files/aumask-0.9.0-window.png
 
 This tool is intended to manipulate overall brightness and/or contrast of image. Note that this tool works via unsharp mask not an actual value of individual pixels. One of effects is that this way local contrast is preserved.
 
-=== Out-of-range protection ===
-
-It is natural and expected, that during sharpening some pixels cat get out of 0-1 range. This tool is to keep them within deserved range.
-Allowed values are 0.9 - 1.05, if you set the value to let us say 0.98, the effect will be that no pixels with brightness below 0.98 and above 0.02 are pushed out of the range - above 0.98 and below 0.02. Note that brightness via mask is applied afterwards.
 
 === Alternative colospaces ===
 
 Primarily the plugin calculates brightness with own formula, but you can switch to HSV and HSL mode to use value/lightness as a "brightness".
+
+=== R/G/B channel as brightness ===
+
+This is a testing feature, it can use one of color channels as a brightness.
 
 <br><br>
 
