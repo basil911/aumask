@@ -109,6 +109,10 @@ http://aumask.googlecode.com/files/poor_mans_HDR.jpg
 
 <br>
 
+=== Installation ===
+
+If you are linux user, just follow instructions in README (should be trivial), for windows binaries look on [http://www.gimpchat.com/viewtopic.php?f=7&t=6653&p=97528#p97528 this thread on gimpchat.com]. (compilation not my work)
+
 === Final note ===
 
 Any ideas and feedback is welcomed (to email prefferably: tiborb95 at gmail dot com).
