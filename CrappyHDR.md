@@ -1,0 +1,28 @@
+# Introduction #
+
+I'm no fan of HDR, and it is not a purpose of this plugin, but if you push capabilities too far you can get such outputs. Here I will introduce how you can achieve it.
+
+
+# Two options #
+
+
+There are two basic options. Please look at the screenshot of plugin window v. 0.7.5.
+
+![http://aumask.googlecode.com/files/Window_for_HDR_0.7.5.png](http://aumask.googlecode.com/files/Window_for_HDR_0.7.5.png)
+
+> ## Procedure 1 - Export the mask-to-img to new layer ##
+
+This uses _mask-to-img differences_ mode exported to layers. Or few such exports with diferent radius and so on. Then play with opacity slider with each of such layer. Original layer can be put on the top and set to "color" mode. It can be saturated of course to get better collors. I presume you have some experiences with working with layers with gimp so will not elaborate more about this topic.
+
+> ## Procedure 2 - Pushing light and dark point close together ##
+
+This is marked with red pen in window screenshot. As name says, you have to shrink the image via _Brightness adjustments_. Also sharpening throughf sharpness sliders is needed/possible. Modification of radius and change of type of blurring is possible as well.
+
+The advantage of this approach is that you see result in preview. In the image below, the result is the image marked with "3". As you can see, the saturation of this resulting image is quite poor, and saturating directly this image do not provide good results. So I saturated original image (set as bottom layer) and set mode of image "3" (upper layer) to "value" and result is image "4". Crappy but this wiki is to show you possibilities not work of art.
+
+![http://aumask.googlecode.com/files/Crappy_HDR_example.jpg](http://aumask.googlecode.com/files/Crappy_HDR_example.jpg)
+
+And here is another example, done with procedure 1.
+
+![http://aumask.googlecode.com/files/poor_mans_HDR.jpg](http://aumask.googlecode.com/files/poor_mans_HDR.jpg)
+
